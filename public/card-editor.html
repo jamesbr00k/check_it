@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Card Editor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+</head>
+
+<body>
+
+    <div class="glassmorphic">
+        <h1>new card</h1>
+        <label for="cardTitle">Card Title:</label>
+        <input type="text" id="cardTitle" name="cardTitle" required><br><br>
+
+        <label for="cardDescription">Card Description:</label>
+        <textarea id="cardDescription" name="cardDescription" required></textarea><br><br>
+
+        <button type="submit">Create Card</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
